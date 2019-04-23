@@ -9,7 +9,7 @@ const App = () => {
       </header>
       <nav className="nav">
         <div>
-          <a href="#">Доступ к POS-кредит (EC)</a>
+          <a href="#"><img src={require('')} /></a>
         </div>
         <div>
           <a href="#">Мой карьерный рост</a>
