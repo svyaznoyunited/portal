@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Router } from 'react-router-dom';
 
 const App = () => {
   return (
@@ -9,7 +10,8 @@ const App = () => {
       </header>
       <nav className="nav">
         <div>
-          <a href="#"><img src={require('')} /></a>
+          <Route component={} />
+          <a href="#">Доступ к POS-кредит (EC)</a>
         </div>
         <div>
           <a href="#">Мой карьерный рост</a>
