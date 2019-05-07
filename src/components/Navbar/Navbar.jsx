@@ -8,7 +8,7 @@ axios.get('http://msdo.maxus.ru/api/get_menu.html')
   .then(res => {
     oMenu = res.data;
   })
-//
+
 const Navbar = () => {
     return (
       <nav>
